@@ -19,7 +19,6 @@ struct Place: Codable, Identifiable {
         self.longitude = longitude
     }
 
-
     enum CodingKeys: String, CodingKey {
         case name
         case latitude = "lat"
